@@ -111,7 +111,7 @@ getLeaderBoard(sessionId)
 
 ## Architecture
 
-![quiz-ds drawio](https://github.com/user-attachments/assets/2f0c5a21-a7ac-4a79-8711-c07a978fd972)
+![quiz-ds drawio (1)](https://github.com/user-attachments/assets/ee82547f-8fff-4971-b9eb-687bd70fd031)
 
 ## Component Description
 
