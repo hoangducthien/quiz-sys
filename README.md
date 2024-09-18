@@ -18,7 +18,7 @@
   
   10 new quizzes per day, each quiz can have maximum 100 question  
 
-  10 sessions per day, each sessions can have maximum 10K participant
+  10 sessions per day, each session map with 1 quiz, can have maximum 10K participant
 
   All session and participant's ranking store in cache => 10 byte each reord (userId-rank), 100K record take 1MB
   
