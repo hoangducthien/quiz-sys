@@ -31,7 +31,7 @@
 
 ## DataBaseModel
 
-<img width="991" alt="Screenshot 2024-09-18 at 16 09 15" src="https://github.com/user-attachments/assets/a0261013-ceec-4535-8775-0757ff43c862">
+![Group 71](https://github.com/user-attachments/assets/14fe9650-5294-46f7-be6c-8be0c6abcce6)
 
 
 ## REST API (authorized, user_id should be able to retrive from token)
@@ -111,11 +111,11 @@ getLeaderBoard(sessionId)
 
 ## Architecture
 
-![quiz-ds drawio (1)](https://github.com/user-attachments/assets/ee82547f-8fff-4971-b9eb-687bd70fd031)
+![quiz-ds drawio (1)](https://github.com/user-attachments/assets/c58f9825-9863-4410-9ae2-370bea716ff7)
 
 ## Component Description
 
-SQL Database: to store quiz, question, answer, session, user submited answer
+Database: to store quiz, question, answer, session, user submited answer
 
 Cache: save user ranking data, question data for active session 
 
@@ -139,7 +139,7 @@ Client: mobile app
 ## Technologies and Tools
 1. BE:
    
-    Database: SQL/NoSQL => I choose SQL for better for data consistency, less complex in development time. (NoSQL is easier for scaling but need trade off between performance & storing redundant data, more complex in development)
+    Database: SQL/NoSQL => I choose NoSQL easier for scaling with large amount of generated data 
   
     Cache: redis/memchace => I choose redis because more popular, more powerfull, more support
   
@@ -152,6 +152,4 @@ Client: mobile app
 3. Client:
    
    Native/cross platform/Web-based => I choose native, better performance & user experience  
-
-
 
